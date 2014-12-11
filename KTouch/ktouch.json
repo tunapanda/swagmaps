@@ -1,0 +1,39 @@
+{
+  "title": "Tunapanda Typing Swag",
+  "items": [{
+    "x": 150,
+    "y": 200,
+    "label": "Level 1",
+    "object": "http://some/xapi/activity"
+  }, {
+    "x": 250,
+    "y": 210,
+    "label": "Level 2",
+    "object": "http://tunapanda.org/ktouch/2"
+  }, {
+    "x": 360,
+    "y": 190,
+    "label": "Level 3",
+    "object": "http://some/other/xapi/activity"
+  }, {
+    "x": 460,
+    "y": 180,
+    "label": "Level 4",
+    "object": "http://some/other/xapi/activity"
+  }, {
+    "x": 560,
+    "y": 190,
+    "label": "Level 5",
+    "object": "http://some/other/xapi/activity"
+  }, {
+    "x": 550,
+    "y": 290,
+    "label": "Level 6",
+    "object": "http://some/other/xapi/activity"
+  }, {
+    "x": 460,
+    "y": 310,
+    "label": "Level 7",
+    "object": "http://some/other/xapi/activity"
+  }]
+}
