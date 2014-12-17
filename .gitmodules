@@ -1,3 +1,3 @@
-[submodule "ext/swagmap"]
-	path = ext/swagmap
+[submodule "swag/static/swag/ext/swagmap"]
+	path = swag/static/swag/ext/swagmap
 	url = https://github.com/tunapanda/swagmap.git
