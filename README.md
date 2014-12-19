@@ -3,10 +3,6 @@
 ## What is it?
 The node.js infrastructure behind Tunapanda's [swag](https://github.com/tunapanda/swag/blob/master/Readme.md) system, and a [Django](http://django.readthedocs.org/en/latest/) app to host it. 
 
-## Prerequisites
-### Tincan and other node.js libraries
-While you can have basic functionality without it, Swag assumes you have the `tincanjs` npm package installed. **TODO:** *More detailed instructions?*
-
 ## How do I use it?
 1. Clone this repo
 1. `cd $clone_dir`
