@@ -1,7 +1,7 @@
 # Swagmap Viewer
 
 ## What is it?
-The node.js infrastructure behind Tunapanda's [swag](https://github.com/tunapanda/swag/blob/master/Readme.md) system, and a [Django](http://django.readthedocs.org/en/latest/) app to host it. 
+The node.js infrastructure behind Tunapanda's [swag](https://github.com/tunapanda/swag/blob/master/Readme.md) system (incorporated via a submodule-- be sure to follow the setup instructions below!), and a [Django](http://django.readthedocs.org/en/latest/) app to host it. 
 
 ## How do I use it?
 1. Clone this repo
