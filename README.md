@@ -7,8 +7,7 @@ A [Django](http://django.readthedocs.org/en/latest/) app to host Tunapanda's [sw
 1. Clone this repo
 1. `cd $clone_dir`
 1. Get its submodules:
-  1. `git submodule init`
-  1. `git submodule update`
+  1. `git submodule update --init`
 1. Install prerequisites:
   1. `sudo pip install -r requirements.txt`  *# or create set up a [virtualenv](https://virtualenv.pypa.io/en/latest/) and you won't need to use `sudo`*
   1. **TODO:** *Instructions for installing tincanjs and other node dependencies*
