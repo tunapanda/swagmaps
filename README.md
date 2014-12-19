@@ -13,10 +13,13 @@ A [Django](http://django.readthedocs.org/en/latest/) app to host Tunapanda's [sw
 
 Now you have a few options for how to deploy Swag:
 
-1. **Standalone Django test server** *(if in doubt, do this)*
+1. **Standalone Django test server** *(recommended for testing)*
   1. *(optional)* `./manage.py syncdb`
   1. `./manage.py runserver`
   1. Open the url provided by the last command in a browser
+1. **WSGI application in Apache httpd** *(recommended for production)*
+  1. `Use swag_devsite/wsgi.py` with [Django's wsgi setup instructions](https://docs.djangoproject.com/en/1.7/howto/deployment/wsgi/modwsgi/)
+    * See [here](https://docs.djangoproject.com/en/1.7/howto/deployment/wsgi/) for other deployment options
 1. **App in an existing Django site**
   1. `cd $clone_dir`
   1. `sudo pip install .` (or `sudo pip install -e .` if you plan on editing any code)
