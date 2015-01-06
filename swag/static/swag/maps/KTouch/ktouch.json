@@ -4,36 +4,81 @@
     "x": 150,
     "y": 200,
     "label": "Level 1",
-    "object": "http://some/xapi/activity"
+    "object": "http://ktouch.tunapanda.org/tunapanda.ktouch.xml#0"
   }, {
     "x": 250,
     "y": 210,
     "label": "Level 2",
-    "object": "http://tunapanda.org/ktouch/2"
+    "object": "http://ktouch.tunapanda.org/tunapanda.ktouch.xml#1"
   }, {
     "x": 360,
     "y": 190,
     "label": "Level 3",
-    "object": "http://some/other/xapi/activity"
+    "object": "http://ktouch.tunapanda.org/tunapanda.ktouch.xml#2"
   }, {
     "x": 460,
     "y": 180,
     "label": "Level 4",
-    "object": "http://some/other/xapi/activity"
+    "object": "http://ktouch.tunapanda.org/tunapanda.ktouch.xml#3"
   }, {
     "x": 560,
     "y": 190,
     "label": "Level 5",
-    "object": "http://some/other/xapi/activity"
+    "object": "http://ktouch.tunapanda.org/tunapanda.ktouch.xml#4"
   }, {
-    "x": 550,
-    "y": 290,
+    "x": 650,
+    "y": 280,
     "label": "Level 6",
-    "object": "http://some/other/xapi/activity"
+    "object": "http://ktouch.tunapanda.org/tunapanda.ktouch.xml#5"
+  }, {
+    "x": 560,
+    "y": 380,
+    "label": "Level 7",
+    "object": "http://ktouch.tunapanda.org/tunapanda.ktouch.xml#6"
+  }, {
+    "x": 450,
+    "y": 390,
+    "label": "Level 8",
+    "object": "http://ktouch.tunapanda.org/tunapanda.ktouch.xml#7"
+  }, {
+    "x": 360,
+    "y": 360,
+    "label": "Level 9",
+    "object": "http://ktouch.tunapanda.org/tunapanda.ktouch.xml#8"
+  }, {
+    "x": 260,
+    "y": 380,
+    "label": "Level 10",
+    "object": "http://ktouch.tunapanda.org/tunapanda.ktouch.xml#9"
+  }, {
+    "x": 160,
+    "y": 480,
+    "label": "Level 11",
+    "object": "http://ktouch.tunapanda.org/tunapanda.ktouch.xml#10"
+  }, {
+    "x": 260,
+    "y": 570,
+    "label": "Level 12",
+    "object": "http://ktouch.tunapanda.org/tunapanda.ktouch.xml#11"
+  }, {
+    "x": 360,
+    "y": 600,
+    "label": "Level 13",
+    "object": "http://ktouch.tunapanda.org/tunapanda.ktouch.xml#12"
   }, {
     "x": 460,
-    "y": 310,
-    "label": "Level 7",
-    "object": "http://some/other/xapi/activity"
+    "y": 570,
+    "label": "Level 14",
+    "object": "http://ktouch.tunapanda.org/tunapanda.ktouch.xml#13"
+  }, {
+    "x": 560,
+    "y": 590,
+    "label": "Level 15",
+    "object": "http://ktouch.tunapanda.org/tunapanda.ktouch.xml#14"
+  }, {
+    "x": 660,
+    "y": 560,
+    "label": "Level 16",
+    "object": "http://ktouch.tunapanda.org/tunapanda.ktouch.xml#15"
   }]
 }
