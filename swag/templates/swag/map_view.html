@@ -19,8 +19,15 @@
 		// https://github.com/tunapanda/swagmap/blob/master/test/view/apptest.html 
 		var app=new SwagMap();		
 		//swagviewer/KTouch/ktouch.json
-				//app.setMapUrl("{% static url %}");
-				app.setMapUrl("{{ url }}");
+		//app.setMapUrl("{% static url %}");
+		app.setMapUrl("{{ url }}");
+		{% if xapi_data %}
+			app.setXApiStore({
+				"endpoint": "{{ xapi_data.endpoint }}",
+				"username": "{{ xapi_data.username }}",
+				"password": "{{ xapi_data.password }}"
+			});
+		{% endif %}
 		app.run();
 	</script>
 {% endblock %}

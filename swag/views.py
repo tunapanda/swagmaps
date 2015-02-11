@@ -4,6 +4,7 @@ from django.templatetags.static import static
 from django.template import Template
 from django.template import Context
 from django.http import HttpResponse
+from django.core.urlresolvers import reverse
 import maps
 
 def map_list(request):
@@ -22,7 +23,18 @@ def map_view(request,map_id):
     """
     data = maps.get_data(map_id)
     url =  maps.get_url(request,map_id)
+    
+    # TODO: Don't hard-code these!
     return render_to_response(
         'swag/map_view.html',
-        {'url':url, "map":data}
+        {
+            'url':url, 
+            "map":data,
+            "xapi_data": {
+                "endpoint": "http://" + request.META['HTTP_HOST']  + reverse('xapi_proxy:main'),
+                "username": "8ebc609b57c479d385dd95fd4b4c616c4c78070f",
+                "password": "77e744668e0d99ccb3c23380904d6e921c2bb139",
+                
+            }
+        }
     )

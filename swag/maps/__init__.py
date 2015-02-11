@@ -17,7 +17,6 @@ def get_all():
         map_data.append({"map_id":map_id, "data":data})
     return map_data
     
-    
 def get_data(path):
     """Get JSON data from a path (`KTouch/ktouch.json`) or URL"""
     # Test whether we were given a full URL

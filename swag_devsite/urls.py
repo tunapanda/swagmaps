@@ -1,6 +1,5 @@
 from django.conf.urls import patterns, include, url
 from django.contrib import admin
-import swag.urls
 
 urlpatterns = patterns('',
     # Examples:
@@ -8,5 +7,6 @@ urlpatterns = patterns('',
     # url(r'^blog/', include('blog.urls')),
 
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^', include(swag.urls)),
+    url(r'^xapi_proxy/', include('xapi_proxy.urls', namespace="xapi_proxy")),
+    url(r'^', include('swag.urls')),
 )
