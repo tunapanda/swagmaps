@@ -7,6 +7,7 @@ urlpatterns = patterns('',
     # url(r'^blog/', include('blog.urls')),
 
     url(r'^admin/', include(admin.site.urls)),
+    url('proxy/(?P<url>.*)', 'proxy.views.proxy_view'),
     url(r'^xapi_proxy/', include('xapi_proxy.urls', namespace="xapi_proxy")),
-    url(r'^', include('swag.urls')),
+    url(r'^', include('swag.urls')), 
 )
