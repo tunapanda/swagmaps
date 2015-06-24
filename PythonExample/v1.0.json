@@ -1,0 +1,476 @@
+{
+  "_id": "557dbb82572da92d86fbaf09",
+  "swagifacts": [
+    {
+      "_id": "557dbbb7572da92d86fbaf0a",
+      "tags": [
+        "programming",
+        "python"
+      ],
+      "requires": [],
+      "provides": [
+        {
+          "_id": "557dbcf7572da92d86fbaf0b",
+          "xAPI": {
+            "definition": {
+              "name": {
+                "en-US": "Print a string"
+              }
+            },
+            "id": "http://localhost:3000/skills/557dbcf7572da92d86fbaf0b"
+          },
+          "id": "557dbcf7572da92d86fbaf0b"
+        }
+      ],
+      "xAPI": {
+        "definition": {
+          "description": {
+            "en-US": "Learn to print a string in python."
+          },
+          "name": {
+            "en-US": "Hello World"
+          }
+        },
+        "id": "http://localhost:3000/swagifacts/557dbbb7572da92d86fbaf0a"
+      },
+      "id": "557dbbb7572da92d86fbaf0a"
+    },
+    {
+      "_id": "557dbfa4572da92d86fbaf15",
+      "tags": [
+        "programming",
+        "python"
+      ],
+      "requires": [],
+      "provides": [
+        {
+          "_id": "557dbf1e572da92d86fbaf13",
+          "xAPI": {
+            "definition": {
+              "name": {
+                "en-US": "Arithmatic Operations"
+              }
+            },
+            "id": "http://localhost:3000/skills/557dbf1e572da92d86fbaf13"
+          },
+          "id": "557dbf1e572da92d86fbaf13"
+        }
+      ],
+      "xAPI": {
+        "definition": {
+          "description": {
+            "en-US": "Solve math problems programatically."
+          },
+          "name": {
+            "en-US": "Solve Simple Math Problems"
+          }
+        },
+        "id": "http://localhost:3000/swagifacts/557dbfa4572da92d86fbaf15"
+      },
+      "id": "557dbfa4572da92d86fbaf15"
+    },
+    {
+      "_id": "557dbd33572da92d86fbaf0c",
+      "tags": [
+        "programming",
+        "python"
+      ],
+      "requires": [
+        {
+          "_id": "557dbcf7572da92d86fbaf0b",
+          "xAPI": {
+            "definition": {
+              "name": {
+                "en-US": "Print a string"
+              }
+            },
+            "id": "http://localhost:3000/skills/557dbcf7572da92d86fbaf0b"
+          },
+          "id": "557dbcf7572da92d86fbaf0b"
+        }
+      ],
+      "provides": [
+        {
+          "_id": "557dbd9a572da92d86fbaf0d",
+          "xAPI": {
+            "definition": {
+              "name": {
+                "en-US": "While"
+              }
+            },
+            "id": "http://localhost:3000/skills/557dbd9a572da92d86fbaf0d"
+          },
+          "id": "557dbd9a572da92d86fbaf0d"
+        }
+      ],
+      "xAPI": {
+        "definition": {
+          "description": {
+            "en-US": "Use a loop to print a string multiple times in python."
+          },
+          "name": {
+            "en-US": "Say Hello 10 Times"
+          }
+        },
+        "id": "http://localhost:3000/swagifacts/557dbd33572da92d86fbaf0c"
+      },
+      "id": "557dbd33572da92d86fbaf0c"
+    },
+    {
+      "_id": "557dbf58572da92d86fbaf14",
+      "tags": [
+        "programming",
+        "python"
+      ],
+      "requires": [
+        {
+          "_id": "557dbcf7572da92d86fbaf0b",
+          "xAPI": {
+            "definition": {
+              "name": {
+                "en-US": "Print a string"
+              }
+            },
+            "id": "http://localhost:3000/skills/557dbcf7572da92d86fbaf0b"
+          },
+          "id": "557dbcf7572da92d86fbaf0b"
+        }
+      ],
+      "provides": [
+        {
+          "_id": "557dbea6572da92d86fbaf10",
+          "xAPI": {
+            "definition": {
+              "name": {
+                "en-US": "Variables"
+              }
+            },
+            "id": "http://localhost:3000/skills/557dbea6572da92d86fbaf10"
+          },
+          "id": "557dbea6572da92d86fbaf10"
+        }
+      ],
+      "xAPI": {
+        "definition": {
+          "description": {
+            "en-US": "Prompt for a name and display it to them using a variable."
+          },
+          "name": {
+            "en-US": "Hello x (custom msg)"
+          }
+        },
+        "id": "http://localhost:3000/swagifacts/557dbf58572da92d86fbaf14"
+      },
+      "id": "557dbf58572da92d86fbaf14"
+    },
+    {
+      "_id": "557dbdcc572da92d86fbaf0e",
+      "tags": [
+        "programming",
+        "python"
+      ],
+      "requires": [
+        {
+          "_id": "557dbcf7572da92d86fbaf0b",
+          "xAPI": {
+            "definition": {
+              "name": {
+                "en-US": "Print a string"
+              }
+            },
+            "id": "http://localhost:3000/skills/557dbcf7572da92d86fbaf0b"
+          },
+          "id": "557dbcf7572da92d86fbaf0b"
+        }
+      ],
+      "provides": [
+        {
+          "_id": "557dbe10572da92d86fbaf0f",
+          "xAPI": {
+            "definition": {
+              "name": {
+                "en-US": "Prompt for Input"
+              }
+            },
+            "id": "http://localhost:3000/skills/557dbe10572da92d86fbaf0f"
+          },
+          "id": "557dbe10572da92d86fbaf0f"
+        }
+      ],
+      "xAPI": {
+        "definition": {
+          "description": {
+            "en-US": "Prompt for a name and display it to them."
+          },
+          "name": {
+            "en-US": "What's your name?"
+          }
+        },
+        "id": "http://localhost:3000/swagifacts/557dbdcc572da92d86fbaf0e"
+      },
+      "id": "557dbdcc572da92d86fbaf0e"
+    },
+    {
+      "_id": "557dbfa4572da92d86fbaf15",
+      "tags": [
+        "programming",
+        "python"
+      ],
+      "requires": [],
+      "provides": [
+        {
+          "_id": "557dbf1e572da92d86fbaf13",
+          "xAPI": {
+            "definition": {
+              "name": {
+                "en-US": "Arithmatic Operations"
+              }
+            },
+            "id": "http://localhost:3000/skills/557dbf1e572da92d86fbaf13"
+          },
+          "id": "557dbf1e572da92d86fbaf13"
+        }
+      ],
+      "xAPI": {
+        "definition": {
+          "description": {
+            "en-US": "Solve math problems programatically."
+          },
+          "name": {
+            "en-US": "Solve Simple Math Problems"
+          }
+        },
+        "id": "http://localhost:3000/swagifacts/557dbfa4572da92d86fbaf15"
+      },
+      "id": "557dbfa4572da92d86fbaf15"
+    },
+    {
+      "_id": "557dc098572da92d86fbaf16",
+      "tags": [
+        "programming",
+        "python"
+      ],
+      "requires": [
+        {
+          "_id": "557dbcf7572da92d86fbaf0b",
+          "xAPI": {
+            "definition": {
+              "name": {
+                "en-US": "Print a string"
+              }
+            },
+            "id": "http://localhost:3000/skills/557dbcf7572da92d86fbaf0b"
+          },
+          "id": "557dbcf7572da92d86fbaf0b"
+        },
+        {
+          "_id": "557dbe10572da92d86fbaf0f",
+          "xAPI": {
+            "definition": {
+              "name": {
+                "en-US": "Prompt for Input"
+              }
+            },
+            "id": "http://localhost:3000/skills/557dbe10572da92d86fbaf0f"
+          },
+          "id": "557dbe10572da92d86fbaf0f"
+        },
+        {
+          "_id": "557dbd9a572da92d86fbaf0d",
+          "xAPI": {
+            "definition": {
+              "name": {
+                "en-US": "While"
+              }
+            },
+            "id": "http://localhost:3000/skills/557dbd9a572da92d86fbaf0d"
+          },
+          "id": "557dbd9a572da92d86fbaf0d"
+        },
+        {
+          "_id": "557dbee3572da92d86fbaf11",
+          "xAPI": {
+            "definition": {
+              "name": {
+                "en-US": "If / Else"
+              }
+            },
+            "id": "http://localhost:3000/skills/557dbee3572da92d86fbaf11"
+          },
+          "id": "557dbee3572da92d86fbaf11"
+        }
+      ],
+      "provides": [],
+      "xAPI": {
+        "definition": {
+          "description": {
+            "en-US": "Create a simple menu."
+          },
+          "name": {
+            "en-US": "Simple Menu"
+          }
+        },
+        "id": "http://localhost:3000/swagifacts/557dc098572da92d86fbaf16"
+      },
+      "id": "557dc098572da92d86fbaf16"
+    },
+    {
+      "_id": "5581914b4272d5afa4141fd9",
+      "tags": [
+        "programming",
+        "python"
+      ],
+      "requires": [
+        {
+          "_id": "557dbea6572da92d86fbaf10",
+          "xAPI": {
+            "definition": {
+              "name": {
+                "en-US": "Variables"
+              }
+            },
+            "id": "http://localhost:3000/skills/557dbea6572da92d86fbaf10"
+          },
+          "id": "557dbea6572da92d86fbaf10"
+        },
+        {
+          "_id": "557dbf1e572da92d86fbaf13",
+          "xAPI": {
+            "definition": {
+              "name": {
+                "en-US": "Arithmatic Operations"
+              }
+            },
+            "id": "http://localhost:3000/skills/557dbf1e572da92d86fbaf13"
+          },
+          "id": "557dbf1e572da92d86fbaf13"
+        }
+      ],
+      "provides": [
+        {
+          "_id": "557dbee3572da92d86fbaf11",
+          "xAPI": {
+            "definition": {
+              "name": {
+                "en-US": "If / Else"
+              }
+            },
+            "id": "http://localhost:3000/skills/557dbee3572da92d86fbaf11"
+          },
+          "id": "557dbee3572da92d86fbaf11"
+        },
+        {
+          "_id": "557dbf05572da92d86fbaf12",
+          "xAPI": {
+            "definition": {
+              "name": {
+                "en-US": "random.rand"
+              }
+            },
+            "id": "http://localhost:3000/skills/557dbf05572da92d86fbaf12"
+          },
+          "id": "557dbf05572da92d86fbaf12"
+        }
+      ],
+      "xAPI": {
+        "definition": {
+          "description": {
+            "en-US": "Show a random number between 1-6."
+          },
+          "name": {
+            "en-US": "Roll the Dice"
+          }
+        },
+        "id": "http://localhost:3000/swagifacts/5581914b4272d5afa4141fd9"
+      },
+      "id": "5581914b4272d5afa4141fd9"
+    },
+    {
+      "_id": "5581914b4272d5afa4141fd9",
+      "tags": [
+        "programming",
+        "python"
+      ],
+      "requires": [
+        {
+          "_id": "557dbea6572da92d86fbaf10",
+          "xAPI": {
+            "definition": {
+              "name": {
+                "en-US": "Variables"
+              }
+            },
+            "id": "http://localhost:3000/skills/557dbea6572da92d86fbaf10"
+          },
+          "id": "557dbea6572da92d86fbaf10"
+        },
+        {
+          "_id": "557dbf1e572da92d86fbaf13",
+          "xAPI": {
+            "definition": {
+              "name": {
+                "en-US": "Arithmatic Operations"
+              }
+            },
+            "id": "http://localhost:3000/skills/557dbf1e572da92d86fbaf13"
+          },
+          "id": "557dbf1e572da92d86fbaf13"
+        }
+      ],
+      "provides": [
+        {
+          "_id": "557dbee3572da92d86fbaf11",
+          "xAPI": {
+            "definition": {
+              "name": {
+                "en-US": "If / Else"
+              }
+            },
+            "id": "http://localhost:3000/skills/557dbee3572da92d86fbaf11"
+          },
+          "id": "557dbee3572da92d86fbaf11"
+        },
+        {
+          "_id": "557dbf05572da92d86fbaf12",
+          "xAPI": {
+            "definition": {
+              "name": {
+                "en-US": "random.rand"
+              }
+            },
+            "id": "http://localhost:3000/skills/557dbf05572da92d86fbaf12"
+          },
+          "id": "557dbf05572da92d86fbaf12"
+        }
+      ],
+      "xAPI": {
+        "definition": {
+          "description": {
+            "en-US": "Show a random number between 1-6."
+          },
+          "name": {
+            "en-US": "Roll the Dice"
+          }
+        },
+        "id": "http://localhost:3000/swagifacts/5581914b4272d5afa4141fd9"
+      },
+      "id": "5581914b4272d5afa4141fd9"
+    }
+  ],
+  "tags": [
+    "programming",
+    "python"
+  ],
+  "xAPI": {
+    "definition": {
+      "description": {
+        "en-US": "Learn to make a simple menu in python."
+      },
+      "name": {
+        "en-US": "Python Simple Menu"
+      }
+    },
+    "id": "http://localhost:3000/swagmaps/557dbb82572da92d86fbaf09"
+  },
+  "id": "557dbb82572da92d86fbaf09"
+}
