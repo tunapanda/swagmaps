@@ -1,0 +1,238 @@
+{
+  "swagifacts": [
+    {
+      "id": "http://swagifacts.tunapanda.org/python-example/hello-world",
+      "definition": {
+        "description": {
+          "en-US": "Learn to print a string in python."
+        },
+        "name": {
+          "en-US": "Hello World"
+        }
+      },
+      "requires": [],
+      "provides": [
+        "http://swag.tunapanda.org/python/print-a-string"
+      ]
+    },
+    {
+      "id": "http://swagifacts.tunapanda.org/python-example/solve-simple-math-problems",
+      "definition": {
+        "description": {
+          "en-US": "Solve math problems programatically."
+        },
+        "name": {
+          "en-US": "Solve Simple Math Problems"
+        }
+      },
+      "requires": [],
+      "provides": [
+        "http://swag.tunapanda.org/python/arithmatic-operations"
+      ]
+    },
+    {
+      "id": "http://swagifacts.tunapanda.org/python-example/say-hello-10-times",
+      "definition": {
+        "description": {
+          "en-US": "Use a loop to print a string multiple times in python."
+        },
+        "name": {
+          "en-US": "Say Hello 10 Times"
+        }
+      },
+      "requires": [
+        "http://swagifacts.tunapanda.org/python-example/print-a-string"
+      ],
+      "provides": [
+        "http://swag.tunapanda.org/python/while"
+      ]
+    },
+    {
+      "id": "http://swagifacts.tunapanda.org/python-example/hello-x-(custom-msg)",
+      "definition": {
+        "description": {
+          "en-US": "Prompt for a name and display it to them using a variable."
+        },
+        "name": {
+          "en-US": "Hello x (custom msg)"
+        }
+      },
+      "requires": [
+        "http://swagifacts.tunapanda.org/python-example/print-a-string"
+      ],
+      "provides": [
+        "http://swag.tunapanda.org/python/variables"
+      ]
+    },
+    {
+      "id": "http://swagifacts.tunapanda.org/python-example/what's-your-name?",
+      "definition": {
+        "description": {
+          "en-US": "Prompt for a name and display it to them."
+        },
+        "name": {
+          "en-US": "What's your name?"
+        }
+      },
+      "requires": [
+        "http://swagifacts.tunapanda.org/python-example/print-a-string"
+      ],
+      "provides": [
+        "http://swag.tunapanda.org/python/prompt-for-input"
+      ]
+    },
+    {
+      "id": "http://swagifacts.tunapanda.org/python-example/solve-simple-math-problems",
+      "definition": {
+        "description": {
+          "en-US": "Solve math problems programatically."
+        },
+        "name": {
+          "en-US": "Solve Simple Math Problems"
+        }
+      },
+      "requires": [],
+      "provides": [
+        "http://swag.tunapanda.org/python/arithmatic-operations"
+      ]
+    },
+    {
+      "id": "http://swagifacts.tunapanda.org/python-example/simple-menu",
+      "definition": {
+        "description": {
+          "en-US": "Create a simple menu."
+        },
+        "name": {
+          "en-US": "Simple Menu"
+        }
+      },
+      "requires": [
+        "http://swagifacts.tunapanda.org/python-example/print-a-string",
+        "http://swagifacts.tunapanda.org/python-example/prompt-for-input",
+        "http://swagifacts.tunapanda.org/python-example/while",
+        "http://swagifacts.tunapanda.org/python-example/if-/-else"
+      ],
+      "provides": []
+    },
+    {
+      "id": "http://swagifacts.tunapanda.org/python-example/roll-the-dice",
+      "definition": {
+        "description": {
+          "en-US": "Show a random number between 1-6."
+        },
+        "name": {
+          "en-US": "Roll the Dice"
+        }
+      },
+      "requires": [
+        "http://swagifacts.tunapanda.org/python-example/variables",
+        "http://swagifacts.tunapanda.org/python-example/arithmatic-operations"
+      ],
+      "provides": [
+        "http://swag.tunapanda.org/python/if-/-else",
+        "http://swag.tunapanda.org/python/random.rand"
+      ]
+    },
+    {
+      "id": "http://swagifacts.tunapanda.org/python-example/roll-the-dice",
+      "definition": {
+        "description": {
+          "en-US": "Show a random number between 1-6."
+        },
+        "name": {
+          "en-US": "Roll the Dice"
+        }
+      },
+      "requires": [
+        "http://swagifacts.tunapanda.org/python-example/variables",
+        "http://swagifacts.tunapanda.org/python-example/arithmatic-operations"
+      ],
+      "provides": [
+        "http://swag.tunapanda.org/python/if-/-else",
+        "http://swag.tunapanda.org/python/random.rand"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "id": "http://swag.tunapanda.org/python/print-a-string",
+      "definition": {
+        "name": {
+          "en-US": "Print a string"
+        }
+      }
+    },
+    {
+      "id": "http://swag.tunapanda.org/python/arithmatic-operations",
+      "definition": {
+        "name": {
+          "en-US": "Arithmatic Operations"
+        }
+      }
+    },
+    {
+      "id": "http://swag.tunapanda.org/python/while",
+      "definition": {
+        "name": {
+          "en-US": "While"
+        }
+      }
+    },
+    {
+      "id": "http://swag.tunapanda.org/python/variables",
+      "definition": {
+        "name": {
+          "en-US": "Variables"
+        }
+      }
+    },
+    {
+      "id": "http://swag.tunapanda.org/python/prompt-for-input",
+      "definition": {
+        "name": {
+          "en-US": "Prompt for Input"
+        }
+      }
+    },
+    {
+      "id": "http://swag.tunapanda.org/python/arithmatic-operations",
+      "definition": {
+        "name": {
+          "en-US": "Arithmatic Operations"
+        }
+      }
+    },
+    {
+      "id": "http://swag.tunapanda.org/python/if-/-else",
+      "definition": {
+        "name": {
+          "en-US": "If / Else"
+        }
+      }
+    },
+    {
+      "id": "http://swag.tunapanda.org/python/random.rand",
+      "definition": {
+        "name": {
+          "en-US": "random.rand"
+        }
+      }
+    },
+    {
+      "id": "http://swag.tunapanda.org/python/if-/-else",
+      "definition": {
+        "name": {
+          "en-US": "If / Else"
+        }
+      }
+    },
+    {
+      "id": "http://swag.tunapanda.org/python/random.rand",
+      "definition": {
+        "name": {
+          "en-US": "random.rand"
+        }
+      }
+    }
+  ]
+}
