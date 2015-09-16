@@ -1,6 +1,14 @@
 {
   "swagmap": {
     "id": "http://swagmaps.tunapanda.org/python-example",
+    "definition": {
+      "description": {
+        "en-US": "Intro To Python."
+      },
+      "name": {
+        "en-US": "Python Example"
+      }
+    },
     "swagifacts": [
       "http://swagifacts.tunapanda.org/python-example/hello-world",
       "http://swagifacts.tunapanda.org/python-example/solve-simple-math-problems",
