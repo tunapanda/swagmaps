@@ -1,4 +1,17 @@
 {
+  "swagmap": {
+    "id": "http://swagmaps.tunapanda.org/python-example",
+    "swagifacts": [
+      "http://swagifacts.tunapanda.org/python-example/hello-world",
+      "http://swagifacts.tunapanda.org/python-example/solve-simple-math-problems",
+      "http://swagifacts.tunapanda.org/python-example/say-hello-10-times",
+      "http://swagifacts.tunapanda.org/python-example/hello-x-(custom-msg)",
+      "http://swagifacts.tunapanda.org/python-example/what's-your-name?",
+      "http://swagifacts.tunapanda.org/python-example/solve-simple-math-problems",
+      "http://swagifacts.tunapanda.org/python-example/simple-menu",
+      "http://swagifacts.tunapanda.org/python-example/roll-the-dice"
+    ]
+  },
   "swagifacts": [
     {
       "id": "http://swagifacts.tunapanda.org/python-example/hello-world",
@@ -132,25 +145,6 @@
         "http://swag.tunapanda.org/python/if-/-else",
         "http://swag.tunapanda.org/python/random.rand"
       ]
-    },
-    {
-      "id": "http://swagifacts.tunapanda.org/python-example/roll-the-dice",
-      "definition": {
-        "description": {
-          "en-US": "Show a random number between 1-6."
-        },
-        "name": {
-          "en-US": "Roll the Dice"
-        }
-      },
-      "requires": [
-        "http://swagifacts.tunapanda.org/python-example/variables",
-        "http://swagifacts.tunapanda.org/python-example/arithmatic-operations"
-      ],
-      "provides": [
-        "http://swag.tunapanda.org/python/if-/-else",
-        "http://swag.tunapanda.org/python/random.rand"
-      ]
     }
   ],
   "skills": [
@@ -199,22 +193,6 @@
       "definition": {
         "name": {
           "en-US": "Arithmatic Operations"
-        }
-      }
-    },
-    {
-      "id": "http://swag.tunapanda.org/python/if-/-else",
-      "definition": {
-        "name": {
-          "en-US": "If / Else"
-        }
-      }
-    },
-    {
-      "id": "http://swag.tunapanda.org/python/random.rand",
-      "definition": {
-        "name": {
-          "en-US": "random.rand"
         }
       }
     },
