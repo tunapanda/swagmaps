@@ -133,7 +133,9 @@
         "http://swagifacts.tunapanda.org/python-example/while",
         "http://swagifacts.tunapanda.org/python-example/if-/-else"
       ],
-      "provides": []
+      "provides": [
+        "http://swag.tunapanda.org/python/freedom.of.choice"
+      ]
     },
     {
       "id": "http://swagifacts.tunapanda.org/python-example/roll-the-dice",
@@ -217,6 +219,14 @@
       "definition": {
         "name": {
           "en-US": "random.rand"
+        }
+      }
+    },
+    {
+      "id": "http://swag.tunapanda.org/python/freedom.of.choice",
+      "definition": {
+        "name": {
+          "en-US": "Freedom Of Choice"
         }
       }
     }
